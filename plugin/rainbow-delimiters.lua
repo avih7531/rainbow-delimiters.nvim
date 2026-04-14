@@ -15,7 +15,7 @@
 --  See the License for the specific language governing permissions and
 --  limitations under the License.
 
-if vim.g.loaded_rainbow_delimiters then
+if vim.g.loaded_rainbow then
 	return
 end
 
@@ -75,6 +75,6 @@ create_autocmd('BufUnload', {
 	end
 })
 
-vim.g.loaded_rainbow_delimiters = true
+vim.g.loaded_rainbow = true
 
 -- vim:tw=79:ts=4:sw=4:noet:
